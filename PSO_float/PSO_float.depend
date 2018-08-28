@@ -1,0 +1,219 @@
+# depslib dependency file v1.0
+1502967478 source:c:\users\ricardo santos\desktop\pso_float\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aloca/aloca.c"
+	"InsertionSort/InsertSort.c"
+	"Randomica/randomica.c"
+	"imprimir.c"
+	"CalculaH/CalculaH.c"
+	"CalculaF/CalculaF.c"
+	"rede.c"
+	"pso.c"
+	"CalculaP/CalculaP.c"
+	"CalculaFth/CalculaFth.c"
+	"CalculaPibest/calculaPibest.c"
+	"CalculaPgbest/CalculaPgbest.c"
+	"CalculaG/CalculaG.c"
+	"calculajPibest/calculajPibest.c"
+	"CalculaVelocidade/calculaVelocidade.c"
+	"CalculaSNR/calculaSNR.c"
+	"calculaSNIR_aux/calculaSNIR_aux.c"
+	"calculaPgbest_aux/calculaPgbest_aux.c"
+	"calculaPSOAUX/calculaPSOAUX.c"
+	"gravarTxt/gravarTxt.c"
+
+1499264810 c:\users\ricardo santos\desktop\pso_float\aloca\aloca.c
+	<stdio.h>
+	<stdlib.h>
+
+1495145648 c:\users\ricardo santos\desktop\pso_float\insertionsort\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1497441066 c:\users\ricardo santos\desktop\pso_float\randomica\randomica.c
+	<stdio.h>
+	<stdlib.h>
+
+1495164234 c:\users\ricardo santos\desktop\pso_float\imprimir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1502831092 c:\users\ricardo santos\desktop\pso_float\calculah\calculah.c
+	<stdio.h>
+	<stdlib.h>
+
+1497835656 c:\users\ricardo santos\desktop\pso_float\calculaf\calculaf.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1502901430 c:\users\ricardo santos\desktop\pso_float\rede.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1502967367 c:\users\ricardo santos\desktop\pso_float\pso.c
+	<stdio.h>
+	<stdlib.h>
+
+1502831326 c:\users\ricardo santos\desktop\pso_float\calculap\calculap.c
+	<stdio.h>
+	<stdlib.h>
+
+1502830248 c:\users\ricardo santos\desktop\pso_float\calculafth\calculafth.c
+	<stdio.h>
+	<stdlib.h>
+
+1497832402 c:\users\ricardo santos\desktop\pso_float\calculapibest\calculapibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497833744 c:\users\ricardo santos\desktop\pso_float\calculapgbest\calculapgbest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502831072 c:\users\ricardo santos\desktop\pso_float\calculag\calculag.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837266 c:\users\ricardo santos\desktop\pso_float\calculajpibest\calculajpibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837558 c:\users\ricardo santos\desktop\pso_float\calculavelocidade\calculavelocidade.c
+	<stdio.h>
+	<stdlib.h>
+
+1497839144 c:\users\ricardo santos\desktop\pso_float\calculasnr\calculasnr.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1499265404 c:\users\ricardo santos\desktop\pso_float\calculasnir_aux\calculasnir_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499286168 c:\users\ricardo santos\desktop\pso_float\calculapgbest_aux\calculapgbest_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499355128 c:\users\ricardo santos\desktop\pso_float\calculapsoaux\calculapsoaux.c
+	<stdio.h>
+	<stdlib.h>
+
+1502967605 c:\users\ricardo santos\desktop\pso_float\gravartxt\gravartxt.c
+	<stdio.h>
+	<stdlib.h>
+
+1504711689 source:c:\users\ricardo santos\documents\pso_float\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aloca/aloca.c"
+	"InsertionSort/InsertSort.c"
+	"Randomica/randomica.c"
+	"imprimir.c"
+	"CalculaH/CalculaH.c"
+	"CalculaF/CalculaF.c"
+	"rede.c"
+	"pso.c"
+	"CalculaP/CalculaP.c"
+	"CalculaFth/CalculaFth.c"
+	"CalculaPibest/calculaPibest.c"
+	"CalculaPgbest/CalculaPgbest.c"
+	"CalculaG/CalculaG.c"
+	"calculajPibest/calculajPibest.c"
+	"CalculaVelocidade/calculaVelocidade.c"
+	"CalculaSNR/calculaSNR.c"
+	"calculaSNIR_aux/calculaSNIR_aux.c"
+	"calculaPgbest_aux/calculaPgbest_aux.c"
+	"calculaPSOAUX/calculaPSOAUX.c"
+	"gravarTxt/gravarTxt.c"
+
+1499264810 c:\users\ricardo santos\documents\pso_float\aloca\aloca.c
+	<stdio.h>
+	<stdlib.h>
+
+1495145648 c:\users\ricardo santos\documents\pso_float\insertionsort\insertsort.c
+	<stdio.h>
+	<stdlib.h>
+
+1504703972 c:\users\ricardo santos\documents\pso_float\randomica\randomica.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1495164234 c:\users\ricardo santos\documents\pso_float\imprimir.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1502831092 c:\users\ricardo santos\documents\pso_float\calculah\calculah.c
+	<stdio.h>
+	<stdlib.h>
+
+1497835656 c:\users\ricardo santos\documents\pso_float\calculaf\calculaf.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1503070964 c:\users\ricardo santos\documents\pso_float\rede.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1504703816 c:\users\ricardo santos\documents\pso_float\pso.c
+	<stdio.h>
+	<stdlib.h>
+
+1504703893 c:\users\ricardo santos\documents\pso_float\calculap\calculap.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1502830248 c:\users\ricardo santos\documents\pso_float\calculafth\calculafth.c
+	<stdio.h>
+	<stdlib.h>
+
+1497832402 c:\users\ricardo santos\documents\pso_float\calculapibest\calculapibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497833744 c:\users\ricardo santos\documents\pso_float\calculapgbest\calculapgbest.c
+	<stdio.h>
+	<stdlib.h>
+
+1502831072 c:\users\ricardo santos\documents\pso_float\calculag\calculag.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837266 c:\users\ricardo santos\documents\pso_float\calculajpibest\calculajpibest.c
+	<stdio.h>
+	<stdlib.h>
+
+1497837558 c:\users\ricardo santos\documents\pso_float\calculavelocidade\calculavelocidade.c
+	<stdio.h>
+	<stdlib.h>
+
+1497839144 c:\users\ricardo santos\documents\pso_float\calculasnr\calculasnr.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1499265404 c:\users\ricardo santos\documents\pso_float\calculasnir_aux\calculasnir_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499286168 c:\users\ricardo santos\documents\pso_float\calculapgbest_aux\calculapgbest_aux.c
+	<stdio.h>
+	<stdlib.h>
+
+1499355128 c:\users\ricardo santos\documents\pso_float\calculapsoaux\calculapsoaux.c
+	<stdio.h>
+	<stdlib.h>
+
+1504710701 c:\users\ricardo santos\documents\pso_float\gravartxt\gravartxt.c
+	<stdio.h>
+	<stdlib.h>
+
