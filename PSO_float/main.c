@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-typedef struct rede
+typedef struct rede// estrutura que armazena as variáveis da rede
 {
     float** H;
     float* g_t, * Ltx_i, * F;
@@ -12,7 +12,7 @@ typedef struct rede
     int K,M;
 }REDE;
 
-typedef struct pso
+typedef struct pso// estrutura que armazena as variáveis do PSO
 {
     float** SNIR,** P, ** G,** Fth, ** v;
     float ** Pibest;
