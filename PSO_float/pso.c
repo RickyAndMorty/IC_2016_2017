@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//Função que calcula a velocidade das partículas
 void calculaVelocidade(PSO* pso)
 {
     int i,j;
@@ -29,6 +29,7 @@ void calculaVelocidade(PSO* pso)
     rand1 = libera2DF(rand1,pso->K);
     rand2 = libera2DF(rand2,pso->K);
 }
+//Função que calcula a melhor posição local das partículas
 void calculaMelhorLocal(PSO* pso)
 {
     int i,j;
@@ -44,7 +45,7 @@ void calculaMelhorLocal(PSO* pso)
         }
     }
 }
-
+//Função que calcula a melhor posição global das partículas
 void calculaMelhorGlobal(PSO* pso)
 {
     int i;
@@ -64,6 +65,7 @@ void calculaMelhorGlobal(PSO* pso)
     MaxJ = libera1DF(MaxJ);
     idx = libera1DI(idx);
 }
+//Função que contêm a equanção que quer-se minimizar
 void fitness(PSO* pso)
 {
     int i,j;
@@ -96,6 +98,7 @@ void fitness(PSO* pso)
     aux1 = libera2DF(aux1,pso->K);
     aux2 = libera1DF(aux2);
 }
+// Função que calcula a relação sinal-ruído mais interferência
 void calculaSNIR(PSO* pso)
 {
     int i,j,z;
@@ -131,6 +134,7 @@ void calculaSNIR(PSO* pso)
     aux1 = libera1DF(aux1);
     aux2 = libera2DF(aux2,pso->K);
 }
+//Função que limita a velocidade das partículas
 void speedBounds(PSO* pso)
 {
     int i,j;
@@ -149,6 +153,7 @@ void speedBounds(PSO* pso)
         }
     }
 }
+//Função que atualiza a posição das partículas
 void populationUpdate(PSO* pso)
 {
     int i,j;
@@ -160,6 +165,7 @@ void populationUpdate(PSO* pso)
         }
     }
 }
+//Função que limita o espaço de busca das das partículas
 void powerBounds(PSO* pso)
 {
     int i,j;
@@ -178,6 +184,7 @@ void powerBounds(PSO* pso)
         }
     }
 }
+//Função que insere e aloca os atributos da estrutura de dados PSO
 void inserirPSO(PSO* pso, REDE* rede)
 {
     pso->c1 = 1.600000F;
