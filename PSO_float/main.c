@@ -24,21 +24,21 @@ typedef struct pso// structure that store the pso variables
 }PSO;
 
 
-typedef struct psoaux// Structure tha store the algorithm evolution on each round, an then store the results in a .txt file. 
+typedef struct psoaux// Structure that store the algorithm evolution on each round, an then store the results in a .txt file. 
 {
     float** SNIR,** P, ** G,** Fth, ** v, ** Pibest, **Pgbest;
     float *Gii, * F, * jP, * jPibest,*SNR;
     int K,iteracoes,M;
 
 }PSOAUX;
-#include "aloca/aloca.c"
-#include "InsertionSort/InsertSort.c"
-#include "Randomica/randomica.c"
-#include "imprimir.c"
-#include "CalculaH/CalculaH.c"
-#include "CalculaF/CalculaF.c"
-#include "rede.c"
-#include "pso.c"
+#include "aloca/aloca.c"// This file contains the functions responsible for dynamically allocating memory
+#include "InsertionSort/InsertSort.c"// This file contains the Insertion Sort function, which is responsible for sorting numbers, in one step of the pso algorithm.
+#include "Randomica/randomica.c"// This file contains the function responsible for generating numbers randomically. 
+#include "imprimir.c"// This file contains the functions responsible for shown the results in the prompt window.
+#include "CalculaH/CalculaH.c"// This file contains the function responsible for generate the normalized matrix H of interference. 
+#include "CalculaF/CalculaF.c"// This file contains the function responsible for calculate the quocient of the bit rate by the chip rate. 
+#include "rede.c"// This file contains all the attributes related to the passive optical network, all the datas are generated mathematically, and with datasheets.
+#include "pso.c"// This file contains the functions related to the pso algorithm. 
 #include "CalculaP/CalculaP.c"
 #include "CalculaFth/CalculaFth.c"
 #include "CalculaPibest/calculaPibest.c"
