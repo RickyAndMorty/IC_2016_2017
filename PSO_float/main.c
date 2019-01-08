@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-typedef struct rede// estrutura que armazena as variáveis da rede
+typedef struct rede// structure that store the network variables
 {
     float** H;
     float* g_t, * Ltx_i, * F;
@@ -12,7 +12,7 @@ typedef struct rede// estrutura que armazena as variáveis da rede
     int K,M;
 }REDE;
 
-typedef struct pso// estrutura que armazena as variáveis do PSO
+typedef struct pso// structure that store the pso variables
 {
     float** SNIR,** P, ** G,** Fth, ** v;
     float ** Pibest;
@@ -24,7 +24,7 @@ typedef struct pso// estrutura que armazena as variáveis do PSO
 }PSO;
 
 
-typedef struct psoaux
+typedef struct psoaux// Structure tha store the algorithm evolution on each round, an then store the results in a .txt file. 
 {
     float** SNIR,** P, ** G,** Fth, ** v, ** Pibest, **Pgbest;
     float *Gii, * F, * jP, * jPibest,*SNR;
