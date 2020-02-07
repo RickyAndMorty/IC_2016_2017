@@ -1,5 +1,15 @@
 # IC_2016_2017" 
 
 
-The present study aims to analyze two identical scenarios using two primitive data types (float and double), in an optical network architecture in conjunction with the particle swarm optimization (PSO) heuristic algorithm. Initially the system (algorithm and network) was implemented in high level language using the Matlab development platform, and after the program was tested, the system was migrated to a low level language (C programming language). It was then opportune to generate graphs of the results obtained in both scenarios analyzed. The evolution of the algorithm in occurs with similar rates of convergence in both scenarios.
+Undergraduate research project,
+Project: Proposal of Allocation and Applied Resource Control Algorithms in Optical Communications Networks Considering Network Monitoring.
+In this work, the particle swarm optimization algorithm (PSO) was investigated to solve the problem of resource allocation in PONs. Two scenarios were developed with different types of data, and the amount of physical memory required for a microcontroller was analyzed.
+Funding Institution: CNpq.
+Dedication: 20 hrs/week
+Activities:
+- Bibliographic review on monitoring techniques applied in optical networks.
+- Modeling of monitoring uncertainties in optical networks, using Matlab.
+- Simulation of optical networks with monitoring and monitoring uncertainties in DSP, using C language programing.
+- Evaluation of the impact of monitoring uncertainties on control and allocation algorithms of DSP embedded resources applied in optical communications networks, using C language programing.
+- Reporting and dissemination of results.
 
